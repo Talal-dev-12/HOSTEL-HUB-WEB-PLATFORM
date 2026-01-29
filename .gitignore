@@ -1,0 +1,24 @@
+# Ignore all node_modules (frontend + backend)
+node_modules/
+
+# Ignore env files anywhere
+.env
+
+# Build folders
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Uploads / temp
+backend/public/uploads/
+backend/temp/
